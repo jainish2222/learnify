@@ -46,5 +46,6 @@ export const siteConfig: Metadata = {
 } as const;
 
 export const links = {
+  sourceCode: "https://github.com/jainish2222/learnify.git",
   email: "jainishkoladiya33@gmail.com",
 } as const;
