@@ -49,14 +49,13 @@ export const ExitModal = () => {
 
         <DialogFooter className="mb-4">
           <div className="flex w-full flex-col gap-y-4">
-            <Button
-              variant="primary"
-              className="w-full"
-              size="lg"
-              onClick={close}
-            >
-              Keep learning
-            </Button>
+          <Button
+               className="w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-200"
+               size="lg"
+               onClick={close}>
+               Keep learning
+          </Button>
+
 
             <Button
               variant="dangerOutline"

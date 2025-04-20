@@ -14,9 +14,8 @@
     "db:prod": "tsx ./scripts/prod.ts"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "jainish koladiya",
+    "email": "jainishkoladiya22@gmail.com"
   },
   "description": "Interactive platform for language learning with lessons, quizzes, and progress tracking.",
   "keywords": [
@@ -31,7 +30,7 @@
     "radix-ui",
     "cn",
     "clsx",
-    "lingo",
+    "learnify",
     "postgresql",
     "sonner",
     "drizzle",
@@ -56,27 +55,24 @@
   ],
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/sanidhyy/duolingo-clone.git"
+    "type": "git"
   },
-  "homepage": "https://github.com/sanidhyy/duolingo-clone#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/duolingo-clone/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "email": "jainishkoladiya33@gmail.com"
   },
   "funding": [
     {
       "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
+      "url": "https://www.patreon.com/jainish"
     },
     {
       "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
+      "url": "https://www.buymeacoffee.com/jainish"
     }
   ],
   "dependencies": {
     "@clerk/nextjs": "^4.31.5",
-    "@neondatabase/serverless": "^0.9.0",
+    "@neondatabase/serverless": "^1.0.0",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-progress": "^1.0.3",
@@ -84,17 +80,18 @@
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "dotenv": "^16.4.5",
-    "drizzle-orm": "^0.30.4",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.42.0",
     "lucide-react": "^0.359.0",
-    "next": "14.2.21",
+    "next": "^14.2.28",
     "next-themes": "^0.3.0",
     "ra-data-simple-rest": "^4.16.12",
-    "react": "^18",
+    "react": "^18.3.1",
     "react-admin": "^4.16.13",
     "react-circular-progressbar": "^2.1.0",
     "react-confetti": "^6.1.0",
-    "react-dom": "^18",
+    "react-dom": "^18.3.1",
+    "react-flagpack": "^2.0.6",
     "react-use": "^17.5.0",
     "sonner": "^1.4.32",
     "stripe": "^14.22.0",
@@ -109,7 +106,7 @@
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "autoprefixer": "^10.0.1",
-    "drizzle-kit": "^0.20.14",
+    "drizzle-kit": "^0.31.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.1.4",
     "eslint-config-prettier": "^9.1.0",

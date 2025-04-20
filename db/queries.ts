@@ -25,6 +25,7 @@ export const getUserProgress = cache(async () => {
   const { userId } = auth();
 
   if (!userId) return null;
+  console.log("Connecting to DB:", process.env.DATABASE_URL)
 
   const data = await db.query.userProgress.findFirst({
     where: eq(userProgress.userId, userId),

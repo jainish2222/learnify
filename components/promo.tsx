@@ -16,7 +16,7 @@ export const Promo = () => {
         <p className="text-muted-foreground">Get unlimited hearts and more!</p>
       </div>
 
-      <Button variant="super" className="w-full" size="lg" asChild>
+      <Button className="w-full bg-emerald-400 hover:bg-amber-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-200" size="lg" asChild>
         <Link href="/shop">Upgrade today</Link>
       </Button>
     </div>

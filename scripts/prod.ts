@@ -25,9 +25,20 @@ const main = async () => {
 
     // Insert courses
     const courses = await db
-      .insert(schema.courses)
-      .values([{ title: "Spanish", imageSrc: "/es.svg" }])
-      .returning();
+    .insert(schema.courses)
+    .values([
+      { title: "Spanish", imageSrc: "/es.svg" },
+      { title: "French", imageSrc: "/fr.svg" },
+      { title: "German", imageSrc: "/de.svg" },
+      { title: "Italian", imageSrc: "/it.svg" },
+      { title: "Japanese", imageSrc: "/jp.svg" },
+      { title: "Korean", imageSrc: "/kr.svg" },
+      { title: "Chinese", imageSrc: "/cn.svg" },
+      { title: "Portuguese", imageSrc: "/pt.svg" },
+      { title: "Hindi", imageSrc: "/in.svg" },
+    ])
+    .returning();
+  
 
     // For each course, insert units
     for (const course of courses) {

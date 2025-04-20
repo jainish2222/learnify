@@ -67,10 +67,33 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        // 🔥 New Color Cycle Keyframes
+        colorCycle: {
+          "0%": { color: "#f97316" },    // orange-500
+          "10%": { color: "#f59e0b" },   // amber-500
+          "20%": { color: "#eab308" },   // yellow-500
+          "30%": { color: "#10b981" },   // emerald-500
+          "40%": { color: "#22d3ee" },   // cyan-400
+          "50%": { color: "#3b82f6" },   // blue-500
+          "60%": { color: "#6366f1" },   // indigo-500
+          "70%": { color: "#8b5cf6" },   // violet-500
+          "80%": { color: "#ec4899" },   // pink-500
+          "90%": { color: "#f43f5e" },   // rose-500
+          "100%": { color: "#f97316" },  // back to orange-500
+        },
+        fadeIn: {
+          "0%": { opacity: "0", transform: "translateY(10px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        // 🔥 New Color Cycle Animation
+        colorCycle: "colorCycle 3s ease-in-out infinite",
+        // new new animation
+        fadeIn: "fadeIn 0.5s ease-in-out forwards",
       },
     },
   },

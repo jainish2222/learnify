@@ -30,13 +30,13 @@ export default function RootLayout({
           logoImageUrl: "/favicon.ico",
         },
         variables: {
-          colorPrimary: "#22C55E",
+          colorPrimary: "#F59E0B",
         },
       }}
     >
       <html lang="en">
         <body className={font.className}>
-          <Toaster theme="light" richColors closeButton />
+          <Toaster theme="dark" richColors closeButton />
           <ExitModal />
           <HeartsModal />
           <PracticeModal />
